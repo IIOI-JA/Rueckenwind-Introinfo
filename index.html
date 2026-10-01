@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="da">
+<html lang="de">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
@@ -33,16 +33,20 @@
 
   .rw-logo{ display:inline-flex; align-items:center; justify-content:center; width:40px; height:40px; border-radius:50%; border:1.5px solid var(--c-accent); color:var(--c-accent); font-weight:700; font-size:17px; }
   .dark-slide .rw-logo{ border-color:rgba(255,255,255,.5); color:#fff; }
+  .shell-top{ background:rgba(250,251,251,.88); backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px); }
 </style>
 
 <script src="main.js" defer></script>
 </head>
-<body class="is-loading" data-lang="da">
+<body class="is-loading" data-lang="de">
 
 <header class="shell-top">
   <a class="brand" href="#" aria-label="Rückenwind">
     <span class="rw-logo" aria-hidden="true">R</span>
-    <span class="brand-text" style="margin-left:10px;">R&uuml;ckenwind</span>
+    <span style="margin-left:10px;">
+      <span class="brand-text" style="display:block; line-height:1.1;">R&uuml;ckenwind</span>
+      <span style="display:block; font-size:10px; font-weight:600; letter-spacing:.08em; color:var(--c-muted); text-transform:uppercase;">ein Angebot der TPI Flensburg</span>
+    </span>
   </a>
 
   <nav class="slide-nav" aria-label="Navigation">
@@ -55,21 +59,22 @@
     <button class="dot" data-go="6" aria-label="7"></button>
     <button class="dot" data-go="7" aria-label="8"></button>
     <button class="dot" data-go="8" aria-label="9"></button>
+    <button class="dot" data-go="9" aria-label="10"></button>
   </nav>
 
   <div class="shell-tools">
     <div class="lang-toggle" role="tablist" aria-label="Sprog / Language / Sprache">
-      <button class="lang-btn is-active" data-set-lang="da" role="tab" aria-selected="true">DA</button>
+      <button class="lang-btn" data-set-lang="da" role="tab" aria-selected="false">DA</button>
       <span class="lang-sep" aria-hidden="true">·</span>
       <button class="lang-btn" data-set-lang="en" role="tab" aria-selected="false">EN</button>
       <span class="lang-sep" aria-hidden="true">·</span>
-      <button class="lang-btn" data-set-lang="de" role="tab" aria-selected="false">DE</button>
+      <button class="lang-btn is-active" data-set-lang="de" role="tab" aria-selected="true">DE</button>
     </div>
   </div>
 </header>
 
 <aside class="counter" aria-hidden="true">
-  <span class="ctr-num">01</span><span class="ctr-sep"></span><span class="ctr-tot">09</span>
+  <span class="ctr-num">01</span><span class="ctr-sep"></span><span class="ctr-tot">10</span>
 </aside>
 <aside class="hint" aria-hidden="true">
   <span data-lang="da">scroll · piletaster · L sprog</span>
@@ -92,16 +97,16 @@
         <span data-lang="en">Mobile stabilization for mental overload</span>
         <span data-lang="de">Mobile Stabilisierung bei mentaler &Uuml;berlastung</span>
       </h1>
-      <p class="reveal reveal-d3" style="margin-top:20px; font-size:18px; color:var(--c-muted); max-width:46ch;">
-        <span data-lang="da">Et redskab, der hj&aelig;lper nervesystemet til ro &mdash; f&oslash;r samtalen overhovedet kan begynde.</span>
-        <span data-lang="en">A tool that helps the nervous system find calm &mdash; before the conversation can even begin.</span>
-        <span data-lang="de">Ein Hilfsmittel, das dem Nervensystem zur Ruhe verhilft &mdash; bevor das Gespr&auml;ch &uuml;berhaupt beginnen kann.</span>
+      <p class="reveal reveal-d3" style="margin-top:20px; font-size:18px; color:var(--c-muted); max-width:52ch;">
+        <span data-lang="da">Mental overbelastning er modvind &mdash; den bremser, presser, g&oslash;r hvert skridt tungere. R&uuml;ckenwind s&aelig;tter imod: med dekompression, der lader det indre pres sive ud, f&oslash;r samtalen overhovedet kan begynde.</span>
+        <span data-lang="en">Mental overload is headwind &mdash; it slows, presses, makes every step heavier. R&uuml;ckenwind pushes back: with decompression that lets the inner pressure out, before the conversation can even begin.</span>
+        <span data-lang="de">Mentale &Uuml;berlastung ist Gegenwind &mdash; er bremst, dr&uuml;ckt, macht jeden Schritt schwerer. R&uuml;ckenwind setzt dagegen: mit Dekompression, die inneren Druck entweichen l&auml;sst, bevor das Gespr&auml;ch &uuml;berhaupt beginnen kann.</span>
       </p>
       <div class="box reveal reveal-d4" style="margin-top:32px; max-width:700px;">
         <p style="margin-top:0; font-style:italic;">
-          <span data-lang="da">I samarbejde med Psykologenheden Falck og Aid-One</span>
-          <span data-lang="en">In collaboration with Psykologenheden Falck and Aid-One</span>
-          <span data-lang="de">In Zusammenarbeit mit der Psychologeneinheit Falck und Aid-One</span>
+          <span data-lang="da">Under protektion af Traumapædagogisk Initiativ (TPI), Flensborg &mdash; i samarbejde med Aid-One og Albers-Online</span>
+          <span data-lang="en">Under the patronage of the Trauma Pedagogical Initiative (TPI), Flensburg &mdash; in collaboration with Aid-One and Albers-Online</span>
+          <span data-lang="de">Unter der Schirmherrschaft der Traumap&auml;dagogischen Initiative (TPI), Flensburg &mdash; in Zusammenarbeit mit Aid-One und Albers-Online</span>
         </p>
       </div>
     </div>
@@ -116,22 +121,22 @@
         <span data-lang="de">Das Problem</span>
       </span>
       <h2 class="display small">
-        <span data-lang="da">N&aring;r pres kommer f&oslash;r samtalen kan b&aelig;re</span>
-        <span data-lang="en">When pressure arrives before conversation can carry it</span>
-        <span data-lang="de">Wenn Druck entsteht, bevor das Gespr&auml;ch tragen kann</span>
+        <span data-lang="da">N&aring;r modvinden bliver for st&aelig;rk</span>
+        <span data-lang="en">When the headwind grows too strong</span>
+        <span data-lang="de">Wenn der Gegenwind zu stark wird</span>
       </h2>
       <div class="box reveal reveal-d3" style="margin-top:20px;">
         <p style="margin-top:0;">
-          <span data-lang="da">Krisecentre, Offerr&aring;dgivningen, M&oslash;drehj&aelig;lpen og andre sociale st&oslash;ttetilbud m&oslash;der dagligt mennesker i akut f&oslash;lelsesm&aelig;ssig belastning &mdash; ofte i forbindelse med vold i n&aelig;re relationer, familiekonflikter eller pludselige livsomv&aelig;ltninger.</span>
-          <span data-lang="en">Crisis centres, victim support services, maternal aid organizations and other social support services meet people in acute emotional distress every day &mdash; often linked to domestic violence, family conflict, or sudden life crises.</span>
-          <span data-lang="de">Krisenzentren, Opferberatungsstellen, M&uuml;tterhilfswerke und andere soziale Unterst&uuml;tzungsangebote begegnen t&auml;glich Menschen in akuter emotionaler Belastung &mdash; oft im Zusammenhang mit h&auml;uslicher Gewalt, Familienkonflikten oder pl&ouml;tzlichen Lebenskrisen.</span>
+          <span data-lang="da">Krisecentre, Offerr&aring;dgivningen, M&oslash;drehj&aelig;lpen og andre sociale st&oslash;ttetilbud m&oslash;der dagligt mennesker, der k&aelig;mper mod en st&aelig;rk indre modvind &mdash; ofte udl&oslash;st af vold i n&aelig;re relationer, familiekonflikter eller pludselige livsomv&aelig;ltninger.</span>
+          <span data-lang="en">Crisis centres, victim support services, maternal aid organizations and other social support services meet people every day who are fighting against a strong inner headwind &mdash; often triggered by domestic violence, family conflict, or sudden life crises.</span>
+          <span data-lang="de">Krisenzentren, Opferberatungsstellen, M&uuml;tterhilfswerke und andere soziale Unterst&uuml;tzungsangebote begegnen t&auml;glich Menschen, die gegen einen starken inneren Gegenwind ank&auml;mpfen &mdash; oft ausgel&ouml;st durch h&auml;usliche Gewalt, Familienkonflikte oder pl&ouml;tzliche Lebenskrisen.</span>
         </p>
       </div>
       <div class="box accent reveal reveal-d4" style="margin-top:18px;">
         <p style="margin-top:0; font-style:italic;">
-          <span data-lang="da">Mange har f&oslash;rst og fremmest brug for fysiologisk stabilisering, f&oslash;r en egentlig samtale kan fungere. N&aring;r pres er for stort, er det sv&aelig;rt at falde til ro og genvinde orientering.</span>
-          <span data-lang="en">Many people need physiological stabilization first, before an actual conversation can work. When pressure is too high, it's hard to settle and regain orientation.</span>
-          <span data-lang="de">Viele brauchen zun&auml;chst physiologische Stabilisierung, bevor ein eigentliches Gespr&auml;ch funktionieren kann. Wenn der Druck zu gro&szlig; ist, f&auml;llt es schwer, zur Ruhe zu kommen und die Orientierung wiederzufinden.</span>
+          <span data-lang="da">Mod for st&aelig;rk modvind er det sv&aelig;rt at orientere sig. F&oslash;r en samtale kan b&aelig;re, skal det indre tryk f&oslash;rst have et sted at slippe ud.</span>
+          <span data-lang="en">Against too strong a headwind, it's hard to find orientation. Before a conversation can carry, the inner pressure first needs somewhere to escape.</span>
+          <span data-lang="de">Gegen zu starken Gegenwind f&auml;llt es schwer, sich zu orientieren. Bevor ein Gespr&auml;ch tragen kann, muss der innere Druck erst irgendwo entweichen k&ouml;nnen.</span>
         </p>
       </div>
     </div>
@@ -146,15 +151,15 @@
         <span data-lang="de">Die L&ouml;sung</span>
       </span>
       <h2 class="display small">
-        <span data-lang="da">Stabilisering i l&oslash;bet af f&aring; minutter</span>
-        <span data-lang="en">Stabilization within minutes</span>
-        <span data-lang="de">Stabilisierung innerhalb weniger Minuten</span>
+        <span data-lang="da">Dekompression: at lade trykket slippe ud</span>
+        <span data-lang="en">Decompression: letting the pressure out</span>
+        <span data-lang="de">Dekompression: inneren Druck entweichen lassen</span>
       </h2>
       <div class="box reveal reveal-d3" style="margin-top:20px;">
         <p style="margin-top:0;">
-          <span data-lang="da">R&uuml;ckenwind er en mobil pr&aelig;psykologisk stabiliseringsmetode. Interventionen anvender Aid-One-apparatet sammen med metoden Decompression &mdash; gennem rytmiske haptiske impulser i h&aring;ndfladerne hj&aelig;lpes nervesystemet til stabilisering, hvilket reducerer indre pres og g&oslash;r det lettere at indg&aring; i dialog.</span>
-          <span data-lang="en">R&uuml;ckenwind is a mobile pre-psychological stabilization method. The intervention uses the Aid-One device together with the Decompression method &mdash; through rhythmic haptic impulses in the palms, the nervous system is guided toward stabilization, reducing internal pressure and making it easier to enter into dialogue.</span>
-          <span data-lang="de">R&uuml;ckenwind ist eine mobile pr&auml;psychologische Stabilisierungsmethode. Die Intervention nutzt das Aid-One-Ger&auml;t zusammen mit der Decompression-Methode &mdash; durch rhythmische haptische Impulse in den Handfl&auml;chen wird das Nervensystem zur Stabilisierung gef&uuml;hrt, wodurch innerer Druck reduziert und der Einstieg in den Dialog erleichtert wird.</span>
+          <span data-lang="da">Lige som en dykker har brug for dekompression for at undg&aring; skadeligt tryk, har nervesystemet brug for et &oslash;jeblik til at lade ophobet indre tryk slippe ud. R&uuml;ckenwind er en mobil pr&aelig;psykologisk metode, der bruger Aid-One-apparatet sammen med Decompression &mdash; gennem rytmiske haptiske impulser i h&aring;ndfladerne f&aring;r modvinden et sted at g&aring; hen, s&aring; dialogen bliver mulig igen.</span>
+          <span data-lang="en">Just as a diver needs decompression to avoid harmful pressure, the nervous system needs a moment to let accumulated inner pressure escape. R&uuml;ckenwind is a mobile pre-psychological method that uses the Aid-One device together with Decompression &mdash; through rhythmic haptic impulses in the palms, the headwind finally has somewhere to go, so dialogue becomes possible again.</span>
+          <span data-lang="de">So wie ein Taucher Dekompression braucht, um schädlichen Druck zu vermeiden, braucht das Nervensystem einen Moment, in dem sich aufgestauter innerer Druck lösen kann. R&uuml;ckenwind ist eine mobile pr&auml;psychologische Methode, die das Aid-One-Ger&auml;t zusammen mit Decompression nutzt &mdash; durch rhythmische haptische Impulse in den Handfl&auml;chen bekommt der Gegenwind endlich einen Weg nach drau&szlig;en, sodass der Dialog wieder m&ouml;glich wird.</span>
         </p>
       </div>
       <p class="reveal reveal-d4" style="margin-top:16px; font-size:13.5px; font-style:italic; color:var(--c-muted);">
@@ -200,9 +205,9 @@
             <span data-lang="de">Die Decompression-Methode</span>
           </h3>
           <p style="font-size:12.5px; color:var(--c-muted);">
-            <span data-lang="da">En struktureret intervention til reduktion af akut indre pres, udviklet til brug p&aring; f&aring; minutter.</span>
-            <span data-lang="en">A structured intervention to reduce acute internal pressure, designed for use within minutes.</span>
-            <span data-lang="de">Eine strukturierte Intervention zur Reduktion von akutem innerem Druck, konzipiert f&uuml;r den Einsatz innerhalb weniger Minuten.</span>
+            <span data-lang="da">Som et overtryksventil, der lader damp sive kontrolleret ud &mdash; en struktureret intervention, der m&aelig;rkbart reducerer akut indre tryk p&aring; f&aring; minutter.</span>
+            <span data-lang="en">Like a pressure valve releasing steam in a controlled way &mdash; a structured intervention that noticeably reduces acute internal pressure within minutes.</span>
+            <span data-lang="de">Wie ein &Uuml;berdruckventil, das Dampf kontrolliert entweichen l&auml;sst &mdash; eine strukturierte Intervention, die akuten inneren Druck binnen Minuten sp&uuml;rbar abbaut.</span>
           </p>
         </article>
         <article class="num-card reveal reveal-d5">
@@ -260,8 +265,98 @@
     </div>
   </section>
 
-  <!-- 6 · MÅLGRUPPE -->
+  <!-- 6 · RÜCKENWIND IN KÜRZE -->
   <section class="slide" data-slide="5" style="background:var(--c-bg);">
+    <div class="wrap wide">
+      <span class="kicker">
+        <span data-lang="da">R&uuml;ckenwind i korte tr&aelig;k</span>
+        <span data-lang="en">R&uuml;ckenwind in brief</span>
+        <span data-lang="de">R&uuml;ckenwind in K&uuml;rze</span>
+      </span>
+      <h2 class="display small">
+        <span data-lang="da">&Eacute;t sted at henvende sig &mdash; s&aring; ofte der er brug for det</span>
+        <span data-lang="en">One place to turn &mdash; as often as it's needed</span>
+        <span data-lang="de">Eine Anlaufstelle &mdash; so oft genutzt, wie es gebraucht wird</span>
+      </h2>
+      <div class="cards cols-3" style="margin-top:24px;">
+        <article class="card reveal reveal-d3">
+          <span class="card-key">
+            <span data-lang="da">&Eacute;n anl&oslash;bsstation</span>
+            <span data-lang="en">One point of contact</span>
+            <span data-lang="de">Eine Anlaufstelle</span>
+          </span>
+          <p>
+            <span data-lang="da">&Eacute;t sted at henvende sig &mdash; frem for mange spredte kontakter.</span>
+            <span data-lang="en">One place to turn &mdash; instead of many scattered contacts.</span>
+            <span data-lang="de">Ein zentraler Ort, an den man sich wendet &mdash; statt vieler verstreuter Kontakte.</span>
+          </p>
+        </article>
+        <article class="card reveal reveal-d3">
+          <span class="card-key">
+            <span data-lang="da">Mange instrukt&oslash;rer</span>
+            <span data-lang="en">Many instructors</span>
+            <span data-lang="de">Viele Instrukteure</span>
+          </span>
+          <p>
+            <span data-lang="da">Ingen fast binding til &eacute;n person &mdash; en instrukt&oslash;r tildeles ved booking.</span>
+            <span data-lang="en">No fixed tie to one person &mdash; an instructor is assigned upon booking.</span>
+            <span data-lang="de">Keine feste Bindung an eine Person &mdash; bei Buchung wird ein:e Instruktor:in zugeteilt.</span>
+          </p>
+        </article>
+        <article class="card reveal reveal-d4">
+          <span class="card-key">
+            <span data-lang="da">Samme dekompression</span>
+            <span data-lang="en">Same decompression</span>
+            <span data-lang="de">Gleiche Dekompression</span>
+          </span>
+          <p>
+            <span data-lang="da">Altid den samme metode, uanset hvilken instrukt&oslash;r der er tildelt.</span>
+            <span data-lang="en">Always the same method, regardless of which instructor is assigned.</span>
+            <span data-lang="de">Immer dieselbe Methode &mdash; unabh&auml;ngig davon, wer gerade zugeteilt ist.</span>
+          </p>
+        </article>
+        <article class="card reveal reveal-d4">
+          <span class="card-key">
+            <span data-lang="da">S&aring; ofte du vil</span>
+            <span data-lang="en">As often as you like</span>
+            <span data-lang="de">So oft wie n&ouml;tig</span>
+          </span>
+          <p>
+            <span data-lang="da">Ingen gr&aelig;nse for antal sessioner &mdash; brug det, n&aring;r modvinden kommer.</span>
+            <span data-lang="en">No limit on the number of sessions &mdash; use it whenever the headwind returns.</span>
+            <span data-lang="de">Keine Begrenzung der Sitzungszahl &mdash; nutzbar, sobald der Gegenwind wiederkehrt.</span>
+          </p>
+        </article>
+        <article class="card reveal reveal-d5">
+          <span class="card-key">
+            <span data-lang="da">&Aring;bningstider</span>
+            <span data-lang="en">Opening hours</span>
+            <span data-lang="de">&Ouml;ffnungszeiten</span>
+          </span>
+          <p>
+            <span data-lang="da">&Aring;bent alle dage fra kl. 8.00&ndash;19.00.</span>
+            <span data-lang="en">Open every day from 8am&ndash;7pm.</span>
+            <span data-lang="de">T&auml;glich ge&ouml;ffnet von 8.00&ndash;19.00 Uhr.</span>
+          </p>
+        </article>
+        <article class="card reveal reveal-d5" style="background:var(--c-accent-mist); border:none;">
+          <span class="card-key">
+            <span data-lang="da">Egenbetaling</span>
+            <span data-lang="en">Self-pay contribution</span>
+            <span data-lang="de">Eigenbeitrag</span>
+          </span>
+          <p style="font-size:20px; font-weight:700; color:var(--c-accent-deep);">
+            <span data-lang="da">1 &euro; / session</span>
+            <span data-lang="en">&euro;1 / session</span>
+            <span data-lang="de">1 &euro; / Sitzung</span>
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 · MÅLGRUPPE -->
+  <section class="slide" data-slide="6" style="background:var(--c-bg);">
     <div class="wrap wide">
       <span class="kicker">
         <span data-lang="da">M&aring;lgruppe</span>
@@ -306,7 +401,7 @@
   </section>
 
   <!-- 7 · HVAD VI SØGER STØTTE TIL -->
-  <section class="slide" data-slide="6" style="background:var(--c-bg-2);">
+  <section class="slide" data-slide="7" style="background:var(--c-bg-2);">
     <div class="wrap wide">
       <span class="kicker">
         <span data-lang="da">Hvad vi s&oslash;ger st&oslash;tte til</span>
@@ -360,7 +455,7 @@
   </section>
 
   <!-- 8 · BLIV FRIVILLIG -->
-  <section class="slide" data-slide="7" style="background:var(--c-bg);">
+  <section class="slide" data-slide="8" style="background:var(--c-bg);">
     <div class="wrap wide">
       <span class="kicker">
         <span data-lang="da">Bliv en del af opstarten</span>
@@ -405,7 +500,7 @@
   </section>
 
   <!-- 9 · KONTAKT -->
-  <section class="slide dark-slide" data-slide="8" style="background:var(--c-accent-deep);">
+  <section class="slide dark-slide" data-slide="9" style="background:var(--c-accent-deep);">
     <div class="wrap" style="max-width:900px;">
       <span class="rw-logo" aria-hidden="true">R</span>
       <p style="margin:14px 0 0; font-size:13px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:#C7D7DD;">R&Uuml;CKENWIND</p>
@@ -423,9 +518,9 @@
 
       <div class="box reveal reveal-d4" style="margin-top:34px; background:#33454F; border:none; max-width:700px;">
         <p style="margin-top:0; font-style:italic; color:#C7D7DD;">
-          <span data-lang="da">I samarbejde med Psykologenheden Falck og Aid-One</span>
-          <span data-lang="en">In collaboration with Psykologenheden Falck and Aid-One</span>
-          <span data-lang="de">In Zusammenarbeit mit der Psychologeneinheit Falck und Aid-One</span>
+          <span data-lang="da">Under protektion af Traumapædagogisk Initiativ (TPI), Flensborg &mdash; i samarbejde med Aid-One og Albers-Online</span>
+          <span data-lang="en">Under the patronage of the Trauma Pedagogical Initiative (TPI), Flensburg &mdash; in collaboration with Aid-One and Albers-Online</span>
+          <span data-lang="de">Unter der Schirmherrschaft der Traumap&auml;dagogischen Initiative (TPI), Flensburg &mdash; in Zusammenarbeit mit Aid-One und Albers-Online</span>
         </p>
       </div>
     </div>
