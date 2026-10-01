@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="theme-color" content="#FAFBFB" />
+<title>Rückenwind — Mobil stabilisering ved mental overload</title>
+<meta name="description" content="Præpsykologisk støtte til krise- og rådgivningsmiljøer. Aid-One, Decompression og RCR." />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Rückenwind — Mobil stabilisering" />
+<meta property="og:description" content="Præpsykologisk støtte til krise- og rådgivningsmiljøer." />
+<meta property="og:site_name" content="Rückenwind" />
+<meta name="twitter:card" content="summary" />
+
+<link rel="stylesheet" href="styles.css" />
+<style>
+  .rw-steps{ display:flex; align-items:center; gap:14px; margin-top:28px; flex-wrap:wrap; }
+  .rw-step{ flex:1 1 220px; background:var(--c-accent-mist); border-radius:12px; padding:22px 18px; text-align:center; font-weight:700; font-size:15px; color:var(--c-accent-deep); }
+  .rw-arrow{ flex:0 0 auto; color:var(--c-accent); font-size:20px; }
+  @media (max-width:760px){ .rw-steps{ flex-direction:column; } .rw-arrow{ transform:rotate(90deg); } }
+
+  .num-card{ background:var(--c-paper); border:1px solid var(--c-hairline); border-radius:10px; padding:26px 22px; box-shadow:var(--shadow-card); }
+  .num-badge{ width:40px; height:40px; border-radius:50%; background:var(--c-accent-mist); color:var(--c-accent-deep); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:17px; margin-bottom:16px; }
+
+  .dot-list{ margin-top:24px; max-width:900px; }
+  .dot-item{ display:flex; align-items:center; gap:14px; padding:10px 0; font-size:16px; color:var(--c-ink); }
+  .dot-item .dot-mark{ flex:0 0 auto; width:11px; height:11px; border-radius:50%; background:var(--c-accent-mist); }
+
+  .check-list{ margin-top:30px; max-width:900px; }
+  .check-item{ display:flex; align-items:center; gap:14px; padding:9px 0; font-size:14px; color:var(--c-ink); }
+  .check-item .check-mark{ flex:0 0 auto; width:22px; height:22px; border-radius:50%; background:var(--c-accent); color:#fff; display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700; }
+
+  .rw-logo{ display:inline-flex; align-items:center; justify-content:center; width:40px; height:40px; border-radius:50%; border:1.5px solid var(--c-accent); color:var(--c-accent); font-weight:700; font-size:17px; }
+  .dark-slide .rw-logo{ border-color:rgba(255,255,255,.5); color:#fff; }
+</style>
+
+<script src="main.js" defer></script>
+</head>
+<body class="is-loading" data-lang="da">
+
+<header class="shell-top">
+  <a class="brand" href="#" aria-label="Rückenwind">
+    <span class="rw-logo" aria-hidden="true">R</span>
+    <span class="brand-text" style="margin-left:10px;">R&uuml;ckenwind</span>
+  </a>
+
+  <nav class="slide-nav" aria-label="Navigation">
+    <button class="dot" data-go="0" aria-label="1"></button>
+    <button class="dot" data-go="1" aria-label="2"></button>
+    <button class="dot" data-go="2" aria-label="3"></button>
+    <button class="dot" data-go="3" aria-label="4"></button>
+    <button class="dot" data-go="4" aria-label="5"></button>
+    <button class="dot" data-go="5" aria-label="6"></button>
+    <button class="dot" data-go="6" aria-label="7"></button>
+    <button class="dot" data-go="7" aria-label="8"></button>
+    <button class="dot" data-go="8" aria-label="9"></button>
+  </nav>
+
+  <div class="shell-tools">
+    <div class="lang-toggle" role="tablist" aria-label="Sprog / Language / Sprache">
+      <button class="lang-btn is-active" data-set-lang="da" role="tab" aria-selected="true">DA</button>
+      <span class="lang-sep" aria-hidden="true">·</span>
+      <button class="lang-btn" data-set-lang="en" role="tab" aria-selected="false">EN</button>
+      <span class="lang-sep" aria-hidden="true">·</span>
+      <button class="lang-btn" data-set-lang="de" role="tab" aria-selected="false">DE</button>
+    </div>
+  </div>
+</header>
+
+<aside class="counter" aria-hidden="true">
+  <span class="ctr-num">01</span><span class="ctr-sep"></span><span class="ctr-tot">09</span>
+</aside>
+<aside class="hint" aria-hidden="true">
+  <span data-lang="da">scroll · piletaster · L sprog</span>
+  <span data-lang="en">scroll · arrows · L language</span>
+  <span data-lang="de">scrollen · Pfeiltasten · L Sprache</span>
+</aside>
+
+<main class="deck">
+
+  <!-- 1 · HERO -->
+  <section class="slide" data-slide="0" style="background:linear-gradient(180deg,var(--c-bg-2),var(--c-bg));">
+    <div class="hero-wrap">
+      <p class="reveal reveal-d1" style="font-size:13px; font-style:italic; color:var(--c-muted); margin-bottom:6px;">
+        <span data-lang="da">Pr&aelig;psykologisk st&oslash;tte til krise- og r&aring;dgivningsmilj&oslash;er</span>
+        <span data-lang="en">Pre-psychological support for crisis and counselling environments</span>
+        <span data-lang="de">Pr&auml;psychologische Unterst&uuml;tzung f&uuml;r Krisen- und Beratungsumfelder</span>
+      </p>
+      <h1 class="hero-title reveal reveal-d2">
+        <span data-lang="da">Mobil stabilisering ved mental overload</span>
+        <span data-lang="en">Mobile stabilization for mental overload</span>
+        <span data-lang="de">Mobile Stabilisierung bei mentaler &Uuml;berlastung</span>
+      </h1>
+      <p class="reveal reveal-d3" style="margin-top:20px; font-size:18px; color:var(--c-muted); max-width:46ch;">
+        <span data-lang="da">Et redskab, der hj&aelig;lper nervesystemet til ro &mdash; f&oslash;r samtalen overhovedet kan begynde.</span>
+        <span data-lang="en">A tool that helps the nervous system find calm &mdash; before the conversation can even begin.</span>
+        <span data-lang="de">Ein Hilfsmittel, das dem Nervensystem zur Ruhe verhilft &mdash; bevor das Gespr&auml;ch &uuml;berhaupt beginnen kann.</span>
+      </p>
+      <div class="box reveal reveal-d4" style="margin-top:32px; max-width:700px;">
+        <p style="margin-top:0; font-style:italic;">
+          <span data-lang="da">I samarbejde med Psykologenheden Falck og Aid-One</span>
+          <span data-lang="en">In collaboration with Psykologenheden Falck and Aid-One</span>
+          <span data-lang="de">In Zusammenarbeit mit der Psychologeneinheit Falck und Aid-One</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 · PROBLEMET -->
+  <section class="slide" data-slide="1" style="background:var(--c-bg);">
+    <div class="wrap wide">
+      <span class="kicker">
+        <span data-lang="da">Problemet</span>
+        <span data-lang="en">The problem</span>
+        <span data-lang="de">Das Problem</span>
+      </span>
+      <h2 class="display small">
+        <span data-lang="da">N&aring;r pres kommer f&oslash;r samtalen kan b&aelig;re</span>
+        <span data-lang="en">When pressure arrives before conversation can carry it</span>
+        <span data-lang="de">Wenn Druck entsteht, bevor das Gespr&auml;ch tragen kann</span>
+      </h2>
+      <div class="box reveal reveal-d3" style="margin-top:20px;">
+        <p style="margin-top:0;">
+          <span data-lang="da">Krisecentre, Offerr&aring;dgivningen, M&oslash;drehj&aelig;lpen og andre sociale st&oslash;ttetilbud m&oslash;der dagligt mennesker i akut f&oslash;lelsesm&aelig;ssig belastning &mdash; ofte i forbindelse med vold i n&aelig;re relationer, familiekonflikter eller pludselige livsomv&aelig;ltninger.</span>
+          <span data-lang="en">Crisis centres, victim support services, maternal aid organizations and other social support services meet people in acute emotional distress every day &mdash; often linked to domestic violence, family conflict, or sudden life crises.</span>
+          <span data-lang="de">Krisenzentren, Opferberatungsstellen, M&uuml;tterhilfswerke und andere soziale Unterst&uuml;tzungsangebote begegnen t&auml;glich Menschen in akuter emotionaler Belastung &mdash; oft im Zusammenhang mit h&auml;uslicher Gewalt, Familienkonflikten oder pl&ouml;tzlichen Lebenskrisen.</span>
+        </p>
+      </div>
+      <div class="box accent reveal reveal-d4" style="margin-top:18px;">
+        <p style="margin-top:0; font-style:italic;">
+          <span data-lang="da">Mange har f&oslash;rst og fremmest brug for fysiologisk stabilisering, f&oslash;r en egentlig samtale kan fungere. N&aring;r pres er for stort, er det sv&aelig;rt at falde til ro og genvinde orientering.</span>
+          <span data-lang="en">Many people need physiological stabilization first, before an actual conversation can work. When pressure is too high, it's hard to settle and regain orientation.</span>
+          <span data-lang="de">Viele brauchen zun&auml;chst physiologische Stabilisierung, bevor ein eigentliches Gespr&auml;ch funktionieren kann. Wenn der Druck zu gro&szlig; ist, f&auml;llt es schwer, zur Ruhe zu kommen und die Orientierung wiederzufinden.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 · LØSNINGEN -->
+  <section class="slide" data-slide="2" style="background:var(--c-bg-2);">
+    <div class="wrap wide">
+      <span class="kicker">
+        <span data-lang="da">L&oslash;sningen</span>
+        <span data-lang="en">The solution</span>
+        <span data-lang="de">Die L&ouml;sung</span>
+      </span>
+      <h2 class="display small">
+        <span data-lang="da">Stabilisering i l&oslash;bet af f&aring; minutter</span>
+        <span data-lang="en">Stabilization within minutes</span>
+        <span data-lang="de">Stabilisierung innerhalb weniger Minuten</span>
+      </h2>
+      <div class="box reveal reveal-d3" style="margin-top:20px;">
+        <p style="margin-top:0;">
+          <span data-lang="da">R&uuml;ckenwind er en mobil pr&aelig;psykologisk stabiliseringsmetode. Interventionen anvender Aid-One-apparatet sammen med metoden Decompression &mdash; gennem rytmiske haptiske impulser i h&aring;ndfladerne hj&aelig;lpes nervesystemet til stabilisering, hvilket reducerer indre pres og g&oslash;r det lettere at indg&aring; i dialog.</span>
+          <span data-lang="en">R&uuml;ckenwind is a mobile pre-psychological stabilization method. The intervention uses the Aid-One device together with the Decompression method &mdash; through rhythmic haptic impulses in the palms, the nervous system is guided toward stabilization, reducing internal pressure and making it easier to enter into dialogue.</span>
+          <span data-lang="de">R&uuml;ckenwind ist eine mobile pr&auml;psychologische Stabilisierungsmethode. Die Intervention nutzt das Aid-One-Ger&auml;t zusammen mit der Decompression-Methode &mdash; durch rhythmische haptische Impulse in den Handfl&auml;chen wird das Nervensystem zur Stabilisierung gef&uuml;hrt, wodurch innerer Druck reduziert und der Einstieg in den Dialog erleichtert wird.</span>
+        </p>
+      </div>
+      <p class="reveal reveal-d4" style="margin-top:16px; font-size:13.5px; font-style:italic; color:var(--c-muted);">
+        <span data-lang="da">Metoden kan bruges ved f&oslash;rste kontakt, i ventetid f&oslash;r samtale &mdash; eller som kort stabilisering f&oslash;r videre st&oslash;tte.</span>
+        <span data-lang="en">The method can be used at first contact, during waiting periods before a conversation &mdash; or as brief stabilization before further support.</span>
+        <span data-lang="de">Die Methode kann beim Erstkontakt, in der Wartezeit vor dem Gespr&auml;ch &mdash; oder als kurze Stabilisierung vor weiterer Unterst&uuml;tzung eingesetzt werden.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- 4 · TRE CENTRALE ELEMENTER -->
+  <section class="slide" data-slide="3" style="background:var(--c-bg);">
+    <div class="wrap wide">
+      <span class="kicker">
+        <span data-lang="da">Tre centrale elementer</span>
+        <span data-lang="en">Three core components</span>
+        <span data-lang="de">Drei zentrale Elemente</span>
+      </span>
+      <h2 class="display small">
+        <span data-lang="da">Aid-One, Decompression og RCR</span>
+        <span data-lang="en">Aid-One, Decompression and RCR</span>
+        <span data-lang="de">Aid-One, Decompression und RCR</span>
+      </h2>
+      <div class="cards cols-3">
+        <article class="num-card reveal reveal-d3">
+          <div class="num-badge">1</div>
+          <h3 style="margin:0 0 10px; font-size:16px; font-weight:700;">
+            <span data-lang="da">Aid-One-apparatet</span>
+            <span data-lang="en">The Aid-One device</span>
+            <span data-lang="de">Das Aid-One-Ger&auml;t</span>
+          </h3>
+          <p style="font-size:12.5px; color:var(--c-muted);">
+            <span data-lang="da">Et haptisk redskab til hurtig regulering af nervesystemet &mdash; b&aelig;res i h&aring;nden, sender rytmiske impulser.</span>
+            <span data-lang="en">A haptic device for rapid nervous system regulation &mdash; held in the hand, sends rhythmic impulses.</span>
+            <span data-lang="de">Ein haptisches Hilfsmittel zur schnellen Regulierung des Nervensystems &mdash; wird in der Hand gehalten, sendet rhythmische Impulse.</span>
+          </p>
+        </article>
+        <article class="num-card reveal reveal-d4">
+          <div class="num-badge">2</div>
+          <h3 style="margin:0 0 10px; font-size:16px; font-weight:700;">
+            <span data-lang="da">Decompression-metoden</span>
+            <span data-lang="en">The Decompression method</span>
+            <span data-lang="de">Die Decompression-Methode</span>
+          </h3>
+          <p style="font-size:12.5px; color:var(--c-muted);">
+            <span data-lang="da">En struktureret intervention til reduktion af akut indre pres, udviklet til brug p&aring; f&aring; minutter.</span>
+            <span data-lang="en">A structured intervention to reduce acute internal pressure, designed for use within minutes.</span>
+            <span data-lang="de">Eine strukturierte Intervention zur Reduktion von akutem innerem Druck, konzipiert f&uuml;r den Einsatz innerhalb weniger Minuten.</span>
+          </p>
+        </article>
+        <article class="num-card reveal reveal-d5">
+          <div class="num-badge">3</div>
+          <h3 style="margin:0 0 10px; font-size:16px; font-weight:700;">Reverse Cue Reactivity (RCR)</h3>
+          <p style="font-size:12.5px; color:var(--c-muted);">
+            <span data-lang="da">En model der reducerer reaktivitet p&aring; negative stimuli og &oslash;ger stabilitet og modtagelighed for positive signaler.</span>
+            <span data-lang="en">A model that reduces reactivity to negative stimuli and increases stability and receptiveness to positive signals.</span>
+            <span data-lang="de">Ein Modell, das die Reaktivit&auml;t auf negative Reize reduziert und Stabilit&auml;t sowie Empf&auml;nglichkeit f&uuml;r positive Signale erh&ouml;ht.</span>
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · HVOR DET BRUGES -->
+  <section class="slide" data-slide="4" style="background:var(--c-bg-2);">
+    <div class="wrap wide">
+      <span class="kicker">
+        <span data-lang="da">Hvor det bruges</span>
+        <span data-lang="en">Where it's used</span>
+        <span data-lang="de">Wo es eingesetzt wird</span>
+      </span>
+      <h2 class="display small">
+        <span data-lang="da">Et redskab, der passer ind hvor som helst i forl&oslash;bet</span>
+        <span data-lang="en">A tool that fits in anywhere along the way</span>
+        <span data-lang="de">Ein Hilfsmittel, das an jeder Stelle im Verlauf passt</span>
+      </h2>
+      <div class="rw-steps">
+        <div class="rw-step reveal reveal-d3">
+          <span data-lang="da">F&oslash;rste kontakt</span>
+          <span data-lang="en">First contact</span>
+          <span data-lang="de">Erstkontakt</span>
+        </div>
+        <div class="rw-arrow">&#8594;</div>
+        <div class="rw-step reveal reveal-d4">
+          <span data-lang="da">Ventetid f&oslash;r samtale</span>
+          <span data-lang="en">Waiting time before conversation</span>
+          <span data-lang="de">Wartezeit vor dem Gespr&auml;ch</span>
+        </div>
+        <div class="rw-arrow">&#8594;</div>
+        <div class="rw-step reveal reveal-d5">
+          <span data-lang="da">F&oslash;r videre st&oslash;tte</span>
+          <span data-lang="en">Before further support</span>
+          <span data-lang="de">Vor weiterer Unterst&uuml;tzung</span>
+        </div>
+      </div>
+      <div class="box reveal reveal-d5" style="margin-top:28px;">
+        <p style="margin-top:0;">
+          <span data-lang="da">Interventionen tager typisk kun f&aring; minutter og kan integreres direkte i eksisterende st&oslash;tteprocesser &mdash; uden at forstyrre det videre forl&oslash;b.</span>
+          <span data-lang="en">The intervention typically takes only a few minutes and can be integrated directly into existing support processes &mdash; without disrupting the rest of the process.</span>
+          <span data-lang="de">Die Intervention dauert in der Regel nur wenige Minuten und l&auml;sst sich direkt in bestehende Unterst&uuml;tzungsprozesse integrieren &mdash; ohne den weiteren Verlauf zu st&ouml;ren.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 · MÅLGRUPPE -->
+  <section class="slide" data-slide="5" style="background:var(--c-bg);">
+    <div class="wrap wide">
+      <span class="kicker">
+        <span data-lang="da">M&aring;lgruppe</span>
+        <span data-lang="en">Target group</span>
+        <span data-lang="de">Zielgruppe</span>
+      </span>
+      <h2 class="display small">
+        <span data-lang="da">Til dem, der m&oslash;der mennesker i akut belastning</span>
+        <span data-lang="en">For those who meet people in acute distress</span>
+        <span data-lang="de">F&uuml;r alle, die Menschen in akuter Belastung begegnen</span>
+      </h2>
+      <div class="dot-list reveal reveal-d3">
+        <div class="dot-item"><span class="dot-mark"></span>
+          <span data-lang="da">Krisecentre for kvinder</span>
+          <span data-lang="en">Women's crisis centres</span>
+          <span data-lang="de">Frauenkrisenzentren</span>
+        </div>
+        <div class="dot-item"><span class="dot-mark"></span>
+          <span data-lang="da">Offerr&aring;dgivningen</span>
+          <span data-lang="en">Victim support services</span>
+          <span data-lang="de">Opferberatungsstellen</span>
+        </div>
+        <div class="dot-item"><span class="dot-mark"></span>
+          <span data-lang="da">M&oslash;drehj&aelig;lpen</span>
+          <span data-lang="en">Maternal aid organizations</span>
+          <span data-lang="de">M&uuml;tterhilfswerke</span>
+        </div>
+        <div class="dot-item"><span class="dot-mark"></span>
+          <span data-lang="da">Familier&aring;dgivning og sociale st&oslash;ttetilbud</span>
+          <span data-lang="en">Family counselling and social support services</span>
+          <span data-lang="de">Familienberatung und soziale Unterst&uuml;tzungsangebote</span>
+        </div>
+      </div>
+      <div class="box accent reveal reveal-d4" style="margin-top:26px;">
+        <p style="margin-top:0; font-style:italic;">
+          <span data-lang="da">Projektet har i udgangspunktet et s&aelig;rligt fokus p&aring; kulturelt og traumesensitiv st&oslash;tte til kvinder, herunder arabiske kvinder, der oplever mentalt overload og stressrelaterede udfordringer.</span>
+          <span data-lang="en">The project initially has a particular focus on culturally and trauma-sensitive support for women, including Arabic-speaking women experiencing mental overload and stress-related challenges.</span>
+          <span data-lang="de">Das Projekt legt zun&auml;chst einen besonderen Fokus auf kulturell und traumasensibel ausgerichtete Unterst&uuml;tzung f&uuml;r Frauen, darunter arabische Frauen, die mentale &Uuml;berlastung und stressbedingte Herausforderungen erleben.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 · HVAD VI SØGER STØTTE TIL -->
+  <section class="slide" data-slide="6" style="background:var(--c-bg-2);">
+    <div class="wrap wide">
+      <span class="kicker">
+        <span data-lang="da">Hvad vi s&oslash;ger st&oslash;tte til</span>
+        <span data-lang="en">What we're seeking support for</span>
+        <span data-lang="de">Wof&uuml;r wir Unterst&uuml;tzung suchen</span>
+      </span>
+      <h2 class="display small">
+        <span data-lang="da">For at komme fra id&eacute; til praksis</span>
+        <span data-lang="en">To move from idea to practice</span>
+        <span data-lang="de">Um von der Idee zur Praxis zu kommen</span>
+      </h2>
+      <div class="cards cols-3">
+        <article class="card reveal reveal-d3">
+          <span class="card-key">
+            <span data-lang="da">Pilotprojekter</span>
+            <span data-lang="en">Pilot projects</span>
+            <span data-lang="de">Pilotprojekte</span>
+          </span>
+          <p>
+            <span data-lang="da">I krisecentre og Offerr&aring;dgivningen.</span>
+            <span data-lang="en">In crisis centres and victim support services.</span>
+            <span data-lang="de">In Krisenzentren und bei der Opferberatung.</span>
+          </p>
+        </article>
+        <article class="card reveal reveal-d4">
+          <span class="card-key">
+            <span data-lang="da">Aid-One-apparater</span>
+            <span data-lang="en">Aid-One devices</span>
+            <span data-lang="de">Aid-One-Ger&auml;te</span>
+          </span>
+          <p>
+            <span data-lang="da">Anskaffelse af udstyr til brug i felten.</span>
+            <span data-lang="en">Acquiring equipment for use in the field.</span>
+            <span data-lang="de">Anschaffung von Ger&auml;ten f&uuml;r den Einsatz vor Ort.</span>
+          </p>
+        </article>
+        <article class="card reveal reveal-d5">
+          <span class="card-key">
+            <span data-lang="da">Tr&aelig;ning &amp; evaluering</span>
+            <span data-lang="en">Training &amp; evaluation</span>
+            <span data-lang="de">Schulung &amp; Evaluierung</span>
+          </span>
+          <p>
+            <span data-lang="da">Af medarbejdere og frivillige &mdash; og af stabiliseringseffekter over tid.</span>
+            <span data-lang="en">Of staff and volunteers &mdash; and of stabilization effects over time.</span>
+            <span data-lang="de">Von Mitarbeitenden und Freiwilligen &mdash; und der Stabilisierungseffekte &uuml;ber die Zeit.</span>
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8 · BLIV FRIVILLIG -->
+  <section class="slide" data-slide="7" style="background:var(--c-bg);">
+    <div class="wrap wide">
+      <span class="kicker">
+        <span data-lang="da">Bliv en del af opstarten</span>
+        <span data-lang="en">Become part of the launch</span>
+        <span data-lang="de">Werde Teil des Aufbaus</span>
+      </span>
+      <h2 class="display small">
+        <span data-lang="da">Frivillig Hovedkoordinator s&oslash;ges</span>
+        <span data-lang="en">Volunteer Lead Coordinator wanted</span>
+        <span data-lang="de">Freiwillige/r Hauptkoordinator/in gesucht</span>
+      </h2>
+      <div class="box reveal reveal-d3" style="margin-top:20px;">
+        <p style="margin-top:0;">
+          <span data-lang="da">Ca. 4 timer om ugen. Du bliver bindeled mellem deltagere, frivillige og instrukt&oslash;rer &mdash; og en central del af R&uuml;ckenwinds opstart og daglige koordinering.</span>
+          <span data-lang="en">Approx. 4 hours a week. You become the link between participants, volunteers and instructors &mdash; and a central part of R&uuml;ckenwind's launch and day-to-day coordination.</span>
+          <span data-lang="de">Ca. 4 Stunden pro Woche. Du wirst zum Bindeglied zwischen Teilnehmenden, Freiwilligen und Trainer:innen &mdash; und ein zentraler Teil des Aufbaus und der laufenden Koordination von R&uuml;ckenwind.</span>
+        </p>
+      </div>
+      <div class="check-list reveal reveal-d4">
+        <div class="check-item"><span class="check-mark">&#10003;</span>
+          <span data-lang="da">Opbygning af et netv&aelig;rk af frivillige medhj&aelig;lpere</span>
+          <span data-lang="en">Building a network of volunteer helpers</span>
+          <span data-lang="de">Aufbau eines Netzwerks freiwilliger Helfer:innen</span>
+        </div>
+        <div class="check-item"><span class="check-mark">&#10003;</span>
+          <span data-lang="da">Koordinering og matching mellem deltagere og instrukt&oslash;rer</span>
+          <span data-lang="en">Coordinating and matching participants with instructors</span>
+          <span data-lang="de">Koordination und Matching zwischen Teilnehmenden und Trainer:innen</span>
+        </div>
+        <div class="check-item"><span class="check-mark">&#10003;</span>
+          <span data-lang="da">Uddannelse til Aid-One Instrukt&oslash;r undervejs</span>
+          <span data-lang="en">Training as an Aid-One Instructor along the way</span>
+          <span data-lang="de">Ausbildung zur/zum Aid-One-Instruktor:in inklusive</span>
+        </div>
+        <div class="check-item"><span class="check-mark">&#10003;</span>
+          <span data-lang="da">Mulighed for, at rollen p&aring; sigt bliver l&oslash;nnet</span>
+          <span data-lang="en">Possibility that the role becomes paid over time</span>
+          <span data-lang="de">M&ouml;glichkeit, dass die Rolle langfristig bezahlt wird</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 · KONTAKT -->
+  <section class="slide dark-slide" data-slide="8" style="background:var(--c-accent-deep);">
+    <div class="wrap" style="max-width:900px;">
+      <span class="rw-logo" aria-hidden="true">R</span>
+      <p style="margin:14px 0 0; font-size:13px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:#C7D7DD;">R&Uuml;CKENWIND</p>
+
+      <h2 class="display reveal reveal-d2" style="margin-top:20px; font-size:clamp(28px,3.6vw,38px); color:#fff;">
+        <span data-lang="da">Lad os tage en uforpligtende dialog.</span>
+        <span data-lang="en">Let's have a no-obligation conversation.</span>
+        <span data-lang="de">Lass uns unverbindlich ins Gespr&auml;ch kommen.</span>
+      </h2>
+      <p class="reveal reveal-d3" style="margin-top:16px; font-size:15px; color:#C7D7DD; max-width:70ch;">
+        <span data-lang="da">Om pilotprojekter, frivilligt engagement, eller bare for at h&oslash;re mere om, hvordan R&uuml;ckenwind kan give modvind til medvind.</span>
+        <span data-lang="en">About pilot projects, volunteering &mdash; or simply to hear more about how R&uuml;ckenwind turns headwind into tailwind.</span>
+        <span data-lang="de">&Uuml;ber Pilotprojekte, freiwilliges Engagement &mdash; oder einfach, um mehr dar&uuml;ber zu erfahren, wie R&uuml;ckenwind aus Gegenwind R&uuml;ckenwind macht.</span>
+      </p>
+
+      <div class="box reveal reveal-d4" style="margin-top:34px; background:#33454F; border:none; max-width:700px;">
+        <p style="margin-top:0; font-style:italic; color:#C7D7DD;">
+          <span data-lang="da">I samarbejde med Psykologenheden Falck og Aid-One</span>
+          <span data-lang="en">In collaboration with Psykologenheden Falck and Aid-One</span>
+          <span data-lang="de">In Zusammenarbeit mit der Psychologeneinheit Falck und Aid-One</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="loader" aria-hidden="true">
+  <div class="loader-mark">R&uuml;ckenwind</div>
+  <div class="loader-bar"><span></span></div>
+  <div class="loader-sub">
+    <span data-lang="da">Indl&aelig;ser</span>
+    <span data-lang="en">Loading</span>
+    <span data-lang="de">L&auml;dt</span>
+  </div>
+</div>
+
+</body>
+</html>
